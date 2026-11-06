@@ -1,36 +1,32 @@
 /* =========================================================
-   Nexa font family
-   Nexa is a commercial typeface (Fontfabric). Drop your licensed
-   files into /fonts using the names below. If Nexa is installed
-   on the visitor's machine, local() picks it up first.
+   Nexa font family (self-hosted from /fonts)
+   - Nexa Regular covers weights 300-400 (no upright Light file)
+   - Nexa Text Bold covers 700-900 (headings, buttons, labels)
    ========================================================= */
 @font-face {
   font-family: "Nexa";
-  src: local("Nexa Light"), local("Nexa-Light"),
-       url("fonts/Nexa-Light.woff2") format("woff2"),
-       url("fonts/Nexa-Light.otf") format("opentype");
-  font-weight: 300; font-style: normal; font-display: swap;
+  src: url("fonts/Nexa-Regular.woff2") format("woff2");
+  font-weight: 300 400; font-style: normal; font-display: swap;
 }
 @font-face {
   font-family: "Nexa";
-  src: local("Nexa Regular"), local("Nexa-Regular"), local("Nexa Book"),
-       url("fonts/Nexa-Regular.woff2") format("woff2"),
-       url("fonts/Nexa-Regular.otf") format("opentype");
-  font-weight: 400; font-style: normal; font-display: swap;
+  src: url("fonts/Nexa-RegularItalic.woff2") format("woff2");
+  font-weight: 400; font-style: italic; font-display: swap;
 }
 @font-face {
   font-family: "Nexa";
-  src: local("Nexa Bold"), local("Nexa-Bold"),
-       url("fonts/Nexa-Bold.woff2") format("woff2"),
-       url("fonts/Nexa-Bold.otf") format("opentype");
-  font-weight: 700; font-style: normal; font-display: swap;
+  src: url("fonts/Nexa-LightItalic.woff2") format("woff2");
+  font-weight: 200 300; font-style: italic; font-display: swap;
 }
 @font-face {
   font-family: "Nexa";
-  src: local("Nexa Heavy"), local("Nexa-Heavy"), local("Nexa Black"),
-       url("fonts/Nexa-Heavy.woff2") format("woff2"),
-       url("fonts/Nexa-Heavy.otf") format("opentype");
-  font-weight: 800; font-style: normal; font-display: swap;
+  src: url("fonts/NexaText-Bold.woff2") format("woff2");
+  font-weight: 700 900; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Nexa";
+  src: url("fonts/NexaText-BlackItalic.woff2") format("woff2");
+  font-weight: 800 950; font-style: italic; font-display: swap;
 }
 
 /* =========================================================
@@ -59,7 +55,7 @@
   --grey-100: #EAEAEA;
   --white: #FFFFFF;
 
-  --font: "Nexa", "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  --font: "Nexa", "Helvetica Neue", Arial, sans-serif;
   --radius: 16px;
   --radius-sm: 10px;
   --container: 1200px;

@@ -6,10 +6,8 @@
   <title>Munshi Md | Halal Freelance Video Editor</title>
   <meta name="description" content="Munshi Md Mohaimenul Huda, halal freelance video editor for Islamic organisations, charities, scholars and creators. Short-form reels, long-form edits, AI motion graphics and custom AI reels." />
   <meta name="theme-color" content="#2B2B29" />
-  <!-- Fallback font while Nexa loads / if Nexa files are not added yet -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800&display=swap" rel="stylesheet" />
+  <link rel="preload" href="fonts/Nexa-Regular.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="fonts/NexaText-Bold.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -45,7 +43,7 @@
         <div>
           <span class="eyebrow">Halal Freelance Video Editor</span>
           <h1>Videos that carry a <span class="accent">meaningful</span> message.</h1>
-          <p class="lead">I'm Munshi, a video editor for Islamic organisations, charities, scholars and creators. I turn raw footage into reels and films that hold attention and deliver your message with care.</p>
+          <p class="lead">I’m Munshi, a video editor for Islamic organisations, charities, scholars and creators. I turn raw footage into reels and films that hold attention and deliver your message with care.</p>
           <div class="hero-actions">
             <a href="#work" class="btn btn-primary">
               <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 4l14 8-14 8z"/></svg>
@@ -126,7 +124,7 @@
             <div class="work-info">
               <h3>Hot Meals for the Rohingya Camps</h3>
               <p class="client">Care Beyond Borders (CBB Canada)</p>
-              <p class="desc">Field footage from Cox's Bazar paired with animated data graphics that show donors exactly what their gift provides.</p>
+              <p class="desc">Field footage from Cox’s Bazar paired with animated data graphics that show donors exactly what their gift provides.</p>
               <div class="tags"><span>Storytelling</span><span>Animated infographics</span><span>Fundraising</span></div>
             </div>
           </button>
@@ -153,7 +151,7 @@
           <span class="to">100K</span>
         </div>
         <div>
-          <h2>I've grown many pages from zero to 100K followers in just six months.</h2>
+          <h2>I’ve grown many pages from zero to 100K followers in just six months.</h2>
           <p>Consistent, retention-focused editing builds an audience. Strong hooks, clean pacing and clear captions keep people watching, sharing and following.</p>
         </div>
       </div>
@@ -235,11 +233,11 @@
         </div>
         <div class="about-copy reveal">
           <span class="eyebrow">About me</span>
-          <h2 class="section-title">Hi, I'm <span class="accent">Munshi</span>.</h2>
-          <p>I'm Munshi Md Mohaimenul Huda, a professional video editor with 3+ years of experience specialising in short-form and long-form content.</p>
-          <p>I've edited over 2,000 videos and reels, contributing to content that has reached millions of organic views. I've had the opportunity to work with recognised names in Islamic media, including Global Relief Trust UK, Bukhari TV, Bukhari Centre, Ustadh Abu Uthman Sadiq, Unity Aid, and Ustadh Hasan Ali, alongside numerous Islamic charities, organisations, scholars and content creators.</p>
+          <h2 class="section-title">Hi, I’m <span class="accent">Munshi</span>.</h2>
+          <p>I’m Munshi Md Mohaimenul Huda, a professional video editor with 3+ years of experience specialising in short-form and long-form content.</p>
+          <p>I’ve edited over 2,000 videos and reels, contributing to content that has reached millions of organic views. I’ve had the opportunity to work with recognised names in Islamic media, including Global Relief Trust UK, Bukhari TV, Bukhari Centre, Ustadh Abu Uthman Sadiq, Unity Aid, and Ustadh Hasan Ali, alongside numerous Islamic charities, organisations, scholars and content creators.</p>
           <p>I specialise in engaging storytelling, audience retention and high-quality video editing, helping organisations and creators communicate meaningful messages.</p>
-          <p class="about-sign">Let's create something meaningful together.</p>
+          <p class="about-sign">Let’s create something meaningful together.</p>
 
           <div class="tools" aria-label="Software">
             <span class="tool"><b>Pr</b>Adobe Premiere Pro</span>
@@ -289,8 +287,8 @@
       <div class="container contact-grid">
         <div class="contact-info reveal">
           <span class="eyebrow">Contact</span>
-          <h2 class="section-title">Let's create something <span class="accent">meaningful</span></h2>
-          <p class="section-lead" style="margin-bottom:36px">Tell me about your project by email and I'll get back to you with ideas and next steps, in shā' Allāh.</p>
+          <h2 class="section-title">Let’s create something <span class="accent">meaningful</span></h2>
+          <p class="section-lead" style="margin-bottom:36px">Tell me about your project by email and I’ll get back to you with ideas and next steps, in shā’ Allāh.</p>
 
           <div class="item">
             <span class="icon"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
@@ -326,7 +324,7 @@
           <button type="submit" class="btn btn-primary" style="width:100%">Email me about your project
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </button>
-          <p class="form-success" id="formSuccess" role="status">Your email app should now be open with your message ready. If it didn't open, email me at mohaimunshi2005@gmail.com.</p>
+          <p class="form-success" id="formSuccess" role="status">Your email app should now be open with your message ready. If it didn’t open, email me at mohaimunshi2005@gmail.com.</p>
           <p class="form-note">This opens your email app with your message ready to send to mohaimunshi2005@gmail.com.</p>
         </form>
       </div>
@@ -337,7 +335,7 @@
   <section class="cta-band">
     <div class="container">
       <div class="cta-box">
-        <h2>Have a message to share? Let's turn your footage into something meaningful.</h2>
+        <h2>Have a message to share? Let’s turn your footage into something meaningful.</h2>
         <a href="mailto:mohaimunshi2005@gmail.com" class="btn">Email me</a>
       </div>
     </div>

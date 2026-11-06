@@ -2,10 +2,15 @@
 
 Open `index.html` in a browser. No build step needed.
 
-## Add the Nexa font
-Nexa is a paid font from Fontfabric. Put your licensed files in `fonts/` with these names:
-`Nexa-Light.woff2`, `Nexa-Regular.woff2`, `Nexa-Bold.woff2`, `Nexa-Heavy.woff2` (`.otf` also works).
-Until you add them, the site shows Montserrat instead.
+## Fonts
+`fonts/` contains Nexa **trial** fonts (Fontfabric), converted to WOFF2:
+Nexa Regular, Regular Italic, Light Italic, Nexa Text Bold and Black Italic.
+
+Trial fonts disable punctuation, symbols and accented letters, so these files keep only the
+characters that work. Anything else (' + & → © ā …) falls back to Helvetica/Arial.
+
+When you buy the full Nexa licence, replace these files with the full versions using the same
+names, and add `Nexa-Light.woff2`, `Nexa-Bold.woff2` and `Nexa-Heavy.woff2` for the full weight range.
 
 ## Add a new reel
 1. Put the video (`my-reel.mp4`) and a still image (`my-reel.jpg`) in `assets/`.
