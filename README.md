@@ -3,14 +3,13 @@
 Open `index.html` in a browser. No build step needed.
 
 ## Fonts
-`fonts/` contains Nexa **trial** fonts (Fontfabric), converted to WOFF2:
-Nexa Regular, Regular Italic, Light Italic, Nexa Text Bold and Black Italic.
+`fonts/` contains Nexa Text **trial** fonts (Fontfabric), converted to WOFF2:
+Light (200), Book (300), Regular (400), Bold (700), Heavy (800-900), plus three italics.
 
 Trial fonts disable punctuation, symbols and accented letters, so these files keep only the
 characters that work. Anything else (' + & → © ā …) falls back to Helvetica/Arial.
 
-When you buy the full Nexa licence, replace these files with the full versions using the same
-names, and add `Nexa-Light.woff2`, `Nexa-Bold.woff2` and `Nexa-Heavy.woff2` for the full weight range.
+When you buy the full licence, replace these files with the full versions using the same names.
 
 ## Add a new reel
 1. Put the video (`my-reel.mp4`) and a still image (`my-reel.jpg`) in `assets/`.

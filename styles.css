@@ -1,17 +1,31 @@
 /* =========================================================
-   Nexa font family (self-hosted from /fonts)
-   - Nexa Regular covers weights 300-400 (no upright Light file)
-   - Nexa Text Bold covers 700-900 (headings, buttons, labels)
+   Nexa Text font family (self-hosted from /fonts)
+   Light 200 · Book 300 · Regular 400 · Bold 700 · Heavy 800-900
    ========================================================= */
 @font-face {
   font-family: "Nexa";
-  src: url("fonts/Nexa-Regular.woff2") format("woff2");
-  font-weight: 300 400; font-style: normal; font-display: swap;
+  src: url("fonts/NexaText-Light.woff2") format("woff2");
+  font-weight: 200; font-style: normal; font-display: swap;
 }
 @font-face {
   font-family: "Nexa";
-  src: url("fonts/Nexa-RegularItalic.woff2") format("woff2");
-  font-weight: 400; font-style: italic; font-display: swap;
+  src: url("fonts/NexaText-Book.woff2") format("woff2");
+  font-weight: 300; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Nexa";
+  src: url("fonts/NexaText-Regular.woff2") format("woff2");
+  font-weight: 400 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Nexa";
+  src: url("fonts/NexaText-Bold.woff2") format("woff2");
+  font-weight: 600 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Nexa";
+  src: url("fonts/NexaText-Heavy.woff2") format("woff2");
+  font-weight: 800 900; font-style: normal; font-display: swap;
 }
 @font-face {
   font-family: "Nexa";
@@ -20,13 +34,13 @@
 }
 @font-face {
   font-family: "Nexa";
-  src: url("fonts/NexaText-Bold.woff2") format("woff2");
-  font-weight: 700 900; font-style: normal; font-display: swap;
+  src: url("fonts/Nexa-RegularItalic.woff2") format("woff2");
+  font-weight: 400 500; font-style: italic; font-display: swap;
 }
 @font-face {
   font-family: "Nexa";
   src: url("fonts/NexaText-BlackItalic.woff2") format("woff2");
-  font-weight: 800 950; font-style: italic; font-display: swap;
+  font-weight: 600 950; font-style: italic; font-display: swap;
 }
 
 /* =========================================================
